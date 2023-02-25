@@ -1,0 +1,30 @@
+.weather-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: url('https://img.freepik.com/free-photo/black-white-sunset_74658-125.jpg?t=st=1677237835~exp=1677238435~hmac=ec95b1f9206e4f189100a3602d4e74ec112ae07ac6ff24064acefb7fe10b3fb8');
+    background-size: 100em 30em;
+    object-fit: cover;
+    height: 20em;
+    color: #fff;
+    
+  }
+  .weather-header button{
+    width: 10em;
+    padding: 1em;
+    margin-top: 3%;
+    border-radius: .8em;
+    display: flex;
+    justify-content: space-around;
+  }
+  .weather-header button:hover{
+    background-color: #bdbbbb;
+  }
+  .weather-header-content{
+    margin-left: 18%;
+    margin-top: 4%; 
+  }
+
+  .linkclass{
+    text-decoration: none;
+  }

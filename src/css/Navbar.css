@@ -1,0 +1,18 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar p{
+    font-size: 1.5em;
+    
+}
+.navbar-menu-icon{
+    background-color: #0b2885;
+    color: #fff;
+    border-radius: .2em;
+    padding: .3em;
+}
+.navbar-menu-icon:hover{
+    background-color: #2047c7;
+}

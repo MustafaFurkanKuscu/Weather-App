@@ -1,0 +1,107 @@
+.loc-side-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    width: 25em;
+    height: 95%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1em;
+}
+.loc-side-header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.loc-side-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.loc-side-content select{
+    padding: .5em;
+    margin-bottom: 2em;
+    margin-top: .5em;
+    border-radius: .3em;
+}
+.loc-side-footer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.loc-side-footer button{
+   margin-bottom: 3em;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 2em;
+    padding: 1.5em;
+    border-radius: .5em;
+
+}
+.cancel-button{
+    background-color: #fff;
+    color: #000;
+    border: none;
+    box-shadow: 1px 1px 10px #8a8585;
+    
+}
+.save-button{
+    background-color: #0077be;
+    color: #fff;
+    border: none;
+}
+.save-button:hover{
+    background-color: #034e79;
+}
+.cancel-button:hover{
+    background-color: #e9e1e1;
+}  
+
+
+
+.close-square{
+    background-color: #fff;
+    color: #000;
+    font-size: 1.5em;
+}
+.close-square:hover{
+    background-color: #000;
+    color: #fff;
+    
+
+}
+
+
+
+
+
+
+.loc-side-content-sidebar{
+    display: flex;
+    flex-direction: column;
+    width: 4em;
+    
+}
+.loc-side-content-sidebar label{
+    background-color: #b1b1b199;
+    padding: .4em;
+}
+.loc-side-content-sidebar button{
+    margin-top: .3em;
+    padding: .4em;
+    background-color: #0077be;
+    border: none;
+    color: #fff;
+    width: 3em;
+    border-radius: .5em;
+}
+.loc-side-content-sidebar button:hover{
+    background-color: #0077be50;
+}

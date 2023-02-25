@@ -1,0 +1,90 @@
+.card{
+ 
+    border-radius: 1em;
+    margin-left: 1em;
+    margin-top: 1em;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 2.2em;
+    background: url('../img/sunny.jpg');
+    background-size: 25em 25em;
+    object-fit: contain;
+    
+  }
+  .card-header{
+    display: flex;
+    justify-content:space-around;
+  }
+  .card-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-footer-content{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .card-footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff66;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    border-radius: 1em;
+    padding: 1em .5em;
+   gap: 1em;
+  }
+  .larger-font{
+    font-size: 1em;
+  }
+  
+  .city-weather{
+    display: flex;
+  }
+
+  .card-header-menu{
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+  }
+  .card-header-menu button{
+    background-color: rgba(255, 255, 255, 0.9);
+    border: none;
+    padding: .3em 1em;
+    margin-bottom: 1%;
+  }
+  .card-header-menu button:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+
+  .countrycode{
+    background-color: orange;
+    border-radius: .9em;
+    font-size: .9em;
+    padding: .4em;
+    
+  }
+  .card-header-date{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+  }
+  .addedinfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .addedinfo p{
+    background-color: green;
+    color: #fff;
+    padding: 1em;
+    border-radius: 1em;
+
+  }
